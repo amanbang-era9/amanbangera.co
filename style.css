@@ -1,0 +1,116 @@
+:root {
+    --dark-blue: #110a00;
+    --light-blue: #00DBF4;
+    --white: #FFFFFF;
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Outfit Semibold", sans-serif;
+}
+
+.btn{
+color:#FFFFFF;
+width: 137px;
+height: 32px;
+font-weight: 600;
+font-size: 24px;
+display: inline-block;
+border-radius: 30px;
+background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+text-decoration: none;
+text-align: center;
+justify-content: center;
+}
+
+.logo aman{
+    width: 340px;
+height: 80px;
+flex-shrink: 0;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo ama{
+    width: 340px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #929292;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo am{
+    width: 340px;
+height: 80px;
+flex-shrink: 0;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    width: 1280px;
+    height: 832px;
+    background: var(--dark-blue);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #FFF;
+
+/* Menu */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.24px;
+text-decoration: none;
+}
